@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="title">Upload file</div>
+      <div className="title">Upload multiple file</div>
       <FileUpload files={files} setFiles={setFiles}
         removeFile={removeFile} />
       <FileList files={files} removeFile={removeFile} />
